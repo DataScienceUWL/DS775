@@ -1,0 +1,349 @@
+restID,name,price_range,restaurant_type,ambiance,descriptors
+0,Smoke Jazz and Supper Club,Average_price,Contemporary American,rustic airy adorable classic,most distinguished uncommon innovative American proud only world-class week.IMPORTANT special welcome
+1,Tavern on the Green,Average_price,American,classic,architect semi-circular authentic natural elegant re-built spectacular grand Italian historic
+2,ABC Kitchen,Average_price,Contemporary American,bustling light-filled rustic welcoming,freshest organic local artistic fresh articulate
+3,Catch New York,Average_price,Seafood,adorable fashionable airy light-filled,contemporary classic sophisticated approachable bright clean unique loyal open communal further
+4,Becco,Budget_price,Italian,rustic utilitarian charming electic,great Italian delicious regional Italian famed open fresh seasonal many best eclectic knowledgeable great great great right
+5,Estiatorio Milos - NY,High_price,Seafood,vibrant posh elegant,freshest flavorful subtlest elegant spacious most lauded original abundant open
+6,Tao Uptown,Average_price,Asian,rustic cozy fashionable classic,16-foot Japanese favorite authentic Japanese former
+7,Red Rooster Harlem,Average_price,Southern,fashionable rustic,American diverse culinary legendary
+8,Del Frisco's Double Eagle Steak House - New York City,High_price,Steakhouse,romantic classy intimate luxurious,midtown classic incredible great beautiful best perfect small
+9,FIG & OLIVE Fifth Avenue,Average_price,Mediterranean,adorable light-filled bustling,best olive full exceptional elegant authentic French Italian numerous menu clean healthy sophisticated unique olive
+10,Rosa Mexicano by Lincoln Center,Average_price,Mexican,cozy adorable welcoming inconspicous,second impressive Rockwell-designed 30-foot dramatic red contemporary new
+11,ABC Cocina,Budget_price,Tapas / Small Plates,informal,
+12,Gallaghers Steakhouse - Manhattan,High_price,Steakhouse,upscale vibrant elegant chic,former colorful good great hard incredible prime legendary all-natural dry hickory other
+13,Boulud Sud,High_price,Mediterranean,vibrant posh chic,vibrant grilled fresh adjacent
+14,Nougatine at Jean Georges,Average_price,French,light-filled airy welcoming,casual bar Adjacent formal seasonal casual freshest finest gorgeous open elegant prix-fixe
+15,Sarabeth's Central Park South,Budget_price,American,charming kid_friendly modest cheerful,many many wonderful
+16,Tao Downtown,High_price,Pan-Asian,romantic classy,sensual regular Pan-Asian imported watchful tall
+17,ilili,Average_price,Lebanese,bustling,premier contemporary inspired authentic modern culinary international impressive architectural soft amber sophisticated relaxed new
+18,Scarpetta,Average_price,Italian,fashionable rustic classic,Italian little dish pure last many three-star
+19,Atlantic Grill Near Lincoln Center,Average_price,Seafood,welcoming inconspicous,local finest fresh delectable raw inventive culinary
+20,Empellon Midtown,Average_price,Contemporary Mexican,classic rustic adorable fashionable,verb through.Upscale contemporary innovative
+21,Ocean Prime - New York,Average_price,Seafood,inconspicous rustic fashionable,modern American award-winning anextraordinary stunning impressive prime wine genuine classic modern lighter grilled decadent unique stunning exceptional ideal
+22,Sarabeth's West,Budget_price,American,electic cheerful rustic,colorful homestyle warm family-friendly first many other cultural
+23,STK - NYC - Midtown,Average_price,Steakhouse,classic,one—the modern chic large central creamy elevated more formal Theatrical energetic entire outdoor separate main chic modern small large fresh
+24,Toloache-Midtown,Budget_price,Mexican,informal cheerful electic boisterous,pronounced chef-owner Julian contemporary creative seasonal natural more festive two-story wood-burning exceptional elegant decorative
+25,Blue Fin - New York,Average_price,Seafood,cozy rustic,modern extensive oasis-like top new upscale new elegant nautical fresh modern
+26,Bar Boulud,Budget_price,French,utilitarian cheerful quaint charming,wine exquisite sumptuous French available private wine-themed adjacent available private
+27,Hakkasan - New York,High_price,Chinese,serene intimate romantic elegant,distinctive modern authentic world-class dramatic intimate chic culinary local such stir-fried black rib-eye Chinese sophisticated delectable expansive talented
+28,Lincoln Ristorante,Average_price,Italian,rustic,modern Italian simple best local authentic Italian exquisite panoramic precise Italian local weekly essential irreplaceable
+29,Café Boulud,High_price,French,intimate upscale,French-American culinary classic French seasonal vegetable le two-course prix-fixe two-course prix-fixe elegant private available private entertaining adjacent inventive luxurious
+30,The View Restaurant,Average_price,Contemporary American,cozy,only rooftop all-encompassing American best artisanal top 3-Course first all-new panoramic elegant square
+31,Park Avenue Spring,Average_price,American,classic welcoming,proud 22-year original new
+32,Zuma Japanese Restaurant - NY,High_price,Japanese,chic serene,acclaimed contemporary Japanese informal present authentic bold simple
+33,La Pecora Bianca - NoMad,Budget_price,Italian,quaint,white Italian all-day vibrant Italian beautiful Italian local seasonal approachable house-made Italian local local organic extensive Italian open seamless
+34,La Pecora Bianca - Midtown,Budget_price,Italian,rustic,white Italian all-day vibrant Italian beautiful Italian local seasonal approachable house-made Italian local local organic extensive Italian open seamless
+35,Calle Ocho,Average_price,Latin American,fashionable airy rustic,festive stylish crowd Spanish willing able salsa small quick
+36,Sarabeth's Park Avenue South,Budget_price,American,boisterous cheerful comfortable,great full private perfect next private live happy available
+37,Lavo - NYC,High_price,Italian,luxurious chic serene,Last open
+38,La Masseria,Average_price,Italian,airy,available bean own new same few limitless fava many warm Rustic relaxed old antique artful antique mixed various authentic Italian 250-bottle wine few best American
+39,Lido,Budget_price,Italian,electic charming utilitarian,fresh simple delicious organic local possible modish relaxed
+40,Ristorante Morini,Average_price,Italian,fashionable,Italian regional modern traditional first stunning full
+41,Morimoto New York,High_price,Japanese,upscale serene elegant,namesake co-owned architect largest Japanese massive austere extraordinary open 24-seat private top lower
+42,Aureole,Average_price,American,welcoming fashionable,unabashed energetic progressive American longstanding local Aureole distinct formal convivial available Michelin-starred pre-theater three-course
+43,Fogo de Chao Brazilian Steakhouse - New York,High_price,Brazilian Steakhouse,chic,midtown short prime al perfect authentic Brazilian past grill tableside Brazilian more main authentic Brazilian award-winning wine semiprivate private
+44,Limani - NYC,High_price,Mediterranean,intimate,traditional Greek rightful culinary premium first-pressed cold-pressed olive local organic special such
+45,Ai Fiori,Average_price,Contemporary European,adorable inconspicous light-filled welcoming,Italian French modern traditional regional stylish inviting extensive wine
+46,Philippe,Average_price,Chinese,fashionable adorable classic cozy,own traditional Beijing-style modern flavorful theatrical family-style
+47,'Cesca,Average_price,Italian,airy,original casual upscale contemporary farm-to-table Italian-American wood-burning artisanal warm rustic
+48,Butter Midtown,Average_price,Contemporary American,rustic inconspicous,traditional subtle global
+49,Smith & Wollensky - New York,High_price,Steakhouse,intimate exclusive elegant,outstanding dry original other quintessential quintessential many exemplary market-fresh Delicious such creamed seasonal irresistible memorable
+50,Orsay,Average_price,French,bustling welcoming,difficult sophisticated-chic warm paneled meet deep creamy Italian warm precious beautiful high frosted low soft 20-foot long zinc-topped French sophisticated elegant Parisian-style French classic award-winning wine French American
+51,Nice Matin,Average_price,French,welcoming cozy rustic,largest daily heady whopping big rosemary-flecked best foie short all-beef right
+52,db Bistro moderne,Average_price,French,welcoming airy classic adorable,db contemporary French chic bistro modern market-driven French-American alongside traditional French seasonal finest produce.Located db perfect pre- post-theater red wine-braised short main seasonal exceptional
+53,The Capital Grille - NY – Time Life Building,High_price,Steakhouse,intimate,hand-cut own freshest creative irresistible on-site acclaimed more gracious anticipatory comfortable sophisticated flawless private full state-of-the-art mobile wine upcoming email
+54,FIG & OLIVE Meatpacking,Average_price,Mediterranean,inconspicous fashionable bustling,best olive full exceptional elegant authentic French Italian
+55,Barbounia,Budget_price,Mediterranean,homey cheerful informal boisterous,modern beautiful chic welcoming top open
+56,Kellari Taverna,Average_price,Greek,light-filled cozy,subterranean contemporary traditional Greek such grilled whole prime eclectic contemporary innovative such warm traditional such extensive international wine large Greek
+57,Craft,High_price,American,vibrant exclusive classy romantic,Simply-prepared pristine seasonal specialized understated prestigious
+58,Almond,Average_price,Farm-to-table,welcoming classic,ever-changing personal winemakers.Our artisanal updated classic french/mediterannean ethnic obsessive own own own dry own own affordable raw entire available
+59,Dos Caminos - Times Square,Average_price,Mexican,bustling fashionable adorable,40-seat mezcal margarita guacamole subterranean
+60,Momofuku Nishi,Average_price,Contemporary American,bustling light-filled airy,Italian-inspired unexpected fish house-made optional new old seasonal Impossible available first
+61,Felidia,Average_price,Italian,inconspicous,east near authentic contemporary Italian innovative traditional tutto pear fresh free vegan vegetarian offered.Felidia delicious price-fixed more popular seasonal
+62,Rosa Mexicano - Union Square,Average_price,Mexican,welcoming bustling fashionable,third warm vibrant award-winning authentic architectural late famed illuminated electric-blue tiled cliff main yellow hot traditional one-of-a-kind perfect innovative
+63,Taboon,High_price,Middle Eastern,upscale classy exclusive chic,oven oven prepared exotic healthful full Middle French delicious new famous
+64,Bocca Di Bacco (Theatre District - 45th St.),Budget_price,Italian,kid_friendly,original welcome welcome beautiful historic Italian endless small healthiest new new
+65,Rotisserie Georgette,Budget_price,French American,modest,casual rough-hewn main open fine fish open Abundant fresh heart-warming generous main soul-satisfying French-American warm private
+66,The National Bar & Dining Rooms,Budget_price,Contemporary American,electic homey,Zakarian contemporary grand same Roth-designed modern late celebrated grand residential metropolitan thoughtful such antiqued bronze spiral classic black white glazed-tile
+67,The Wayfarer,Average_price,American,inconspicous welcoming light-filled rustic,bi-level Classic American diverse artisanal award-winning Christian award-winning old new classic multi-leveled main open cafe upstairs
+68,The Dining Room at The Metropolitan Museum of Art,High_price,Contemporary American,upscale serene,serene contemporary American local seasonal four-course current available
+69,Il Mulino New York - Uptown,High_price,Italian,vibrant,authentic unparalleled Italian fine Italian elite Italian one-of-a-kind delicious outstanding Italian Fresh artistic impeccable distinguish excellent off-site
+70,Molyvos,Average_price,Greek,light-filled airy bustling,closest finest true large warm lively home-style authentic classical superior wine keen unique excellent small
+71,Danji,Average_price,Korean,light-filled welcoming bustling inconspicous,authentic Korean classic aesthetic small shareable multiple great food.At wild much local possible such more healthy responsible delicious
+72,Tommy Bahama - New York,Budget_price,American,rustic boisterous,excellent perfect unique sure everyday more more
+73,Marseille,Average_price,French,light-filled airy,casual
+74,Sarabeth's East,Budget_price,American,quaint comfortable,more gourmet American casual
+75,The Capital Grille - NY – Chrysler Center,High_price,Steakhouse,intimate serene chic,hand-cut own freshest creative irresistible on-site acclaimed more gracious anticipatory comfortable sophisticated flawless private full state-of-the-art mobile wine upcoming email
+76,Hunt & Fish Club NYC,High_price,Steakhouse,romantic intimate elegant classy,contemporary classic innovative classic
+77,Ammos Estiatorio,Average_price,Seafood,classic light-filled welcoming,upscale authentic various wide fresh whole Greek open light weathered sun-drenched Greek
+78,T-BAR Steak & Lounge (Upper East Side),Average_price,Steakhouse,inconspicous light-filled cozy,new classic raw prime salmon classic global diverse new long long many full steak
+79,Bocca di Bacco (Hell's Kitchen - 54th St.),Budget_price,Italian,quaint homey informal kid_friendly,Italian
+80,The Clocktower,High_price,English,chic exclusive,new iconic contemporary British classic contemporary diverse local global
+81,Masseria dei Vini,Average_price,Italian,fashionable airy inconspicous bustling,new modern update many traditional modern other.The typical such Italian fish shellfish fresh extensive large
+82,Lexington Brass,Average_price,American,airy adorable light-filled,adjacent midtown new American high authentic finest most trusted organic nutrient-rich fresh seasonal tasty vegetarian many free dairy free vegan reasonable reliable relaxed upscale modern elevated top late
+83,Serra by Birreria,Budget_price,Italian,homey,Italian new hot rustic down-to-earth simple quality favorite family-style countryside.Complete largest Italian bio-dynamic botanic-infused more Pro such
+84,GAONNURI,Average_price,Korean,airy inconspicous,gah-ohn-nu-ri finest eclectic traditional Korean own culinary
+85,Obao,Average_price,Thai,adorable fashionable bustling,various traditional highest proud
+86,Remi,Average_price,Italian,airy,
+87,Glass House Tavern,Average_price,Contemporary American,bustling classic light-filled adorable,great warm truly friendly delightful incredible contemporary American restaurant other seasonal fantastic
+88,Dos Caminos - Third Avenue,Average_price,Mexican,inconspicous,vibrant authentic upscale fresh margarita robust
+89,Stella 34 Trattoria,Budget_price,Italian,homey modest charming,modern Italian
+90,MR CHOW - 57th,High_price,Chinese,serene luxurious,famous devoted American Precious beautiful high Chinese impeccable old authentic such best famous noodle Elegant newer big-league welcome-to-the-
+91,Casa Lever,High_price,Italian,serene,Milanese new timeless Italian creative
+92,Jams - NYC,Budget_price,American,homey modest,new seasonal
+93,Ousia,Average_price,Mediterranean,welcoming,Greek-focused family-owned operated rich shareable memorable beloved Greek classic communal wine Greek-centric innovative
+94,Rosa Mexicano - First Avenue,Average_price,Mexican,adorable welcoming classic,old authentic rustic Traditional front papel picado further warm outstanding perennial
+95,Red Cat,Average_price,American,light-filled classic bustling airy,original come-as-you-are irreverent colonial tavern downtown-gallery elegant
+96,Ruth's Chris Steak House - New York City - Midtown,Average_price,Steakhouse,light-filled fashionable welcoming,best finest USDA available hot delicious first last fresh signature genuine regular perfect perfect private offsite
+97,Sea Fire Grill,Average_price,Seafood,inconspicous cozy welcoming,contemporary American finest freshest superb raw delicious Entrée sure succulent elegant complete
+98,Blue Water Grill,Average_price,Seafood,welcoming rustic cozy,favorite sustainable Loyal former bi-level freshest sustainable innovative
+99,Vaucluse,Average_price,French,bustling cozy fashionable airy,stylish French
+100,LEGASEA,High_price,Seafood,posh classy elegant,top-tier fun-casual entertaining classic unique shareable local sustainable highest delicious marine-inclined nautically-inspired unforgettable full good good
+101,STK - NYC - Meatpacking,Average_price,Steakhouse,classic,one—the modern chic large central creamy elevated more formal Theatrical smoky energetic entire main chic modern small large fresh
+102,Esca,Budget_price,Italian,homey rustic boisterous informal,Southern Italian Italian coastal French best available simple delicious local best own sought-after fish stunning raw incredible best Italian coastal greatest
+103,The Leopard at des Artistes,High_price,Italian,classy exclusive upscale intimate,mid culinary rural such
+104,21 Club,High_price,American,romantic luxurious,fine American wine unique historical glamorous celebrated four-story private legendary necessary
+105,Benoit Restaurant and Wine Bar,Average_price,French,fashionable cozy bustling,third internationally-acclaimed authentic traditional modern contemporary classic French
+106,DaDong NY,Average_price,Chinese,light-filled airy welcoming fashionable,"first famous influential most prominent square second third main second energetic stylish sexy gritty third refined elegant 3,785-square-foot outdoor second 858-square-foot outdoor third few private entire"
+107,Lincoln Square Steak,High_price,Steakhouse,chic upscale elegant exclusive,Italian-American nostalgic reflective dry succulent extensive global talented live private stunning perfect
+108,Club A Steakhouse,Average_price,Steakhouse,bustling,unique onsite traditional new evident distinct extensive OpenTable
+109,Anassa Taverna,Average_price,Greek,inconspicous welcoming cozy,bi-level warm decorative Mediterranean Greek lamb swordfish raw daily slow-cooked
+110,Cafe d'Alsace,Average_price,French,light-filled,such extravagant
+111,Burke & Wills,Average_price,Australian,rustic,seasonal modern Australian creative authentic Australian artisanal
+112,Boucherie - Park Avenue South,Average_price,French,rustic,traditional FRENCH former French timeless extensive classic inspired absinthe-driven majestic wooden-framed original pristine white burgundy leather 40-guest private 222-seat contemporary
+113,Natsumi Restaurant,Average_price,Japanese,classic airy,original separate adjacent elegant trendy Tokyo-chic modern Japanese Italian creative such sashimi new green innovative unique dynamic wine international white red distinct cozy intimate whole warm golden
+114,Armani Ristorante 5th Avenue,Average_price,Italian,light-filled,understanding.Immersed new Italian culinary distinctive innovative traditional Italian exclusive impeccable unique elegant relaxed
+115,Brasserie Ruhlmann,Average_price,French American,cozy welcoming classic adorable,casual French prime relaxed private large ideal
+116,Docks Oyster Bar and Seafood Grill,Average_price,Seafood,classic inconspicous,freshest popular fresh raw daily
+117,Chez Josephine,Average_price,French,airy cozy adorable fashionable,last legendary Parisian intimate red blue-tin warm leisurely in-between other famous fashionable infamous unsung
+118,Brasserie 8 1/2,Average_price,French,cozy bustling,elegant French available
+119,Churrascaria Plataforma Brazilian Steakhouse,High_price,Brazilian Steakhouse,luxurious elegant chic vibrant,early wide different short fish hot main coaster-sized red green ready
+120,Riverpark,Average_price,American,fashionable welcoming rustic adorable,unique romantic dynamic culinary overall own urban modern American seasonal local
+121,Casa Nonna - Midtown,Average_price,Italian,fashionable,rustic Italian traditional freshest local seasonal warm authentic thoroughly bold pure true Italian
+122,Farmer & The Fish - Gramercy,Budget_price,Farm-to-table,modest quaint,freshest Casual Elegant
+123,The Sea Grill,Average_price,Seafood,airy rustic welcoming,iconic freshest elegant private
+124,Bar Italia,Average_price,Italian,bustling,refreshing simple Casual Elegant
+125,Strip House Midtown,High_price,Steak,romantic,old-world modern charred such sure famed 24-Layer top namesake only white bordello original second
+126,Maiella - LIC,Average_price,Italian,bustling classic cozy,elegant waterfront authentic Italian modern freshest iconic spectacular rustic outdoor tall private larger
+127,Storico,Average_price,Contemporary Italian,bustling classic welcoming,landmark exclusive culinary seasonal dynamic go-to culinary attractive bright open available private
+128,Naples 45 Ristorante E Pizzeria,Budget_price,Italian,charming boisterous informal electic,Italian best authentic
+129,La Sirena - The Dining Room,Average_price,Italian,adorable cozy light-filled inconspicous,13-year Italian Italian storied entire Italian elegant traditional multi-course relaxed full seasonal sweet
+130,Benjamin Steakhouse Prime,High_price,American,intimate elegant exclusive,continued proud newest modern traditional prime succulent unique square expansive main temperature-controlled upper customizable private
+131,Tavern 62 by David Burke,Average_price,American,bustling,Tavern first new modern American all-day several private main American contemporary elevated curated
+132,Michael's,Average_price,American,adorable airy,spacious fresh modern
+133,Le Coq Rico,Average_price,Contemporary French,bustling classic,beautiful different simple entire available famous oldest three-star unique wild multiple unique French American main
+134,Match 65 Brasserie (formerly Paris Match),Average_price,French,bustling welcoming,authentic Parisian quintessential Parisian pendant outdoor many French highest thoughtful wide friendly attentive favorite many
+135,Barbetta Restaurant,Average_price,Italian,adorable,oldest founding oldest Italian oldest three-fold landmark 18th Italian northwestern verdant century-old sought-after al
+136,Pera Mediterranean Brasserie,Average_price,Mediterranean,airy inconspicous,Top authentic eastern elegant many 17th numerous prepared grilled traditional modern regional popular available private private special available email
+137,The Whitby Bar and Restaurant,Average_price,American,rustic inconspicous airy cozy,gorgeous classic fresh upper modern American uniquely eclectic Open extensive international classic Opentable open more
+138,FIG & OLIVE Uptown,Average_price,Mediterranean,fashionable,special olive finest olive authentic fresh flavorful simple olive antioxidant chalk-white olive wonderful culinary
+139,Monkey Bar,High_price,American,exclusive,former lush red attractive attractive cozy white American seasonal sustainable organic possible
+140,Rock Center Cafe,Average_price,Contemporary American,rustic bustling inconspicous,midtown available
+141,Obica Mozzarella Bar  Pizza e Cucina,Average_price,Italian,airy bustling inconspicous classic,freshest contemporary Italian famous fresh Italian artisanal fresh organic local
+142,Etcetera Etcetera,Average_price,Italian,fashionable,vibrant modern cozy culinary perfect post-theatre own unique cultural many restaurant warm elegant gorgeous interior sharp friendly heavenly neighborhood curious mouth-watering such fresh innovative seasonal outgoing good tasty large grand
+143,Café Centro,Average_price,French,inconspicous,brasserie-style French
+144,Periyali,Average_price,Greek,classic light-filled inconspicous,cool fabric-swathed pristine white hectic calm professional most peaceful Greek charcoal-grilled impressively succulent Wine-marinated charcoal-grilled garlicky fava chicken best-of-breed bite-sized sizeable superlative creamy excellent
+145,Shun Lee West,Average_price,Chinese,classic adorable cozy rustic,startling shiny black Asian grand Chinese best Regional crispy hot hot beggar black
+146,Haru Sushi - Amsterdam Ave,Average_price,Japanese,airy light-filled,modern Japanese wide traditional dull stylish vibrant prepared Japanese special generous popular Japanese
+147,Zengo - NYC,Average_price,Asian,adorable welcoming airy bustling,sophisticated Latin-Asian Latin-Asian Light invite largest agave-based extensive Japanese best Latin-Asian fine fresh hand-muddled
+148,Manzo Ristorante - Eataly NYC Flatiron,Average_price,Italian,fashionable bustling rustic adorable,
+149,Bagatelle - NY,Average_price,French,inconspicous airy adorable,French reminiscent Parisian classic chic bold relaxed sexy
+150,Trattoria Zero Otto Nove,Average_price,Italian,rustic inconspicous,second famous quick wood-burning such Real Little
+151,Ortzi by Jose Garces,Average_price,Basque,classic,inspired Spanish new forty-five open rustic elegant casual first same daily
+152,American Cut Steakhouse Midtown,Average_price,Steakhouse,inconspicous,American original nostalgic modern social such several new such show-stopping complete
+153,Maloney & Porcelli,High_price,American,upscale,clubby new American alive anticipated Begin shellfish such main famed such inventive individual red house-made
+154,Royal 35 Steakhouse,High_price,Steakhouse,exclusive posh classy,iconic vibrant authentic classic dry 30-35 box.The 130-seat upper private chic elegant unforgettable
+155,Chazz Palminteri Italian Restaurant,High_price,Italian,serene intimate luxurious chic,modern intimate stunning high finest traditional Italian upscale Italian global close rich classic Italian seasonal Italian craft
+156,Bodega Negra,High_price,Contemporary Mexican,elegant exclusive,UK modern original small available menu draws diverse small such large-format
+157,Dos Caminos - Park,Average_price,Mexican,airy adorable welcoming,vibrant authentic upscale fresh margarita robust
+158,Barraca,Average_price,Spanish,classic airy adorable,Spanish various native unique genuine Spanish available Spanish back original intact soft ambient unique sit-down stand-up
+159,Gabriel's Bar & Restaurant,High_price,Italian,intimate romantic,Italian powerful influential important freshest finest delectable vast sure award-winning full delectable perfect
+160,The Cecil Steakhouse,Average_price,American,airy fashionable,
+161,Dos Caminos – Meatpacking,Average_price,Mexican,light-filled classic,vibrant authentic upscale fresh fresh margarita robust
+162,Bobby Van's Grill - 50th Street,Average_price,American,rustic bustling classic fashionable,traditional American classic first-rate best describes fourth same past legendary lighter such renowned unadulterated
+163,Untitled at the Whitney,Average_price,American,classic bustling fashionable,walk-ins.Untitled seasonal American artful convivial global worldly neighborhood world-renowned contemporary American striking glass-walled interior exterior transparent
+164,Bedford & Co.,Average_price,Contemporary American,cozy,newest modern Contemporary wood-fired American
+165,Pampano New York,Average_price,Mexican,adorable fashionable,Mexican midtown elegant white white coastal handcrafted outdoor clear competing exciting Sandoval European vivid
+166,Cipriani - Dolci,Average_price,Italian,inconspicous adorable,own chic attentive well-priced Venetian casual sensational
+167,Lugo Cucina,Average_price,Italian,rustic,convivial Italian perfect authentic Italian Such extensive pre-concert
+168,Rouge Tomate Chelsea,Average_price,Contemporary American,fashionable,Michelin-starred seasonal sustainable local sustainable genuine balanced thoughtful authentic seasonal natural organic proud
+169,Socarrat Paella Bar - Chelsea,Average_price,Spanish,adorable bustling light-filled airy,small intimate large communal smaller communal available high most communal perfect delectable sensuous authentic delicious traditional fried true Spanish
+170,Bann Restaurant,Average_price,Korean,classic bustling airy,same unique interactive authentic Korean modern next authentic short own traditional black garlic adventurous culinary
+171,Socarrat Paella Bar - Midtown East,Average_price,Spanish,airy rustic light-filled,open
+172,High Street on Hudson,Average_price,Contemporary American,classic bustling light-filled,High on-site bread
+173,Hanjan,Average_price,Korean,classic adorable inconspicous,second old Korean weary good good Many Korean everyday wild much local possible more healthy responsible delicious
+174,Le Colonial NYC,Average_price,Vietnamese,classic light-filled,delightful culinary French two-story main louvered colorful elegant full private authentic Vietnamese fresh more
+175,Delmonico's Kitchen,Average_price,American,inconspicous adorable cozy,first fine modern casual contemporary sleek deep red big seasonal organic local savory original legendary such other traditional innovative new
+176,Morton's The Steakhouse - Midtown Manhattan,High_price,Steakhouse,serene elegant,prime-aged fine crisp white exceptional more special private online special
+177,Ted's Montana Grill - NYC,Average_price,American,adorable airy,Authentic American American important honest genuine timeless modern hand-prepared fresh classic chef-inspired finest best flavorful award-winning other unique such daily fresh unique extensive elegant bold private familiar real true Authentic American casual upscale
+178,Trattoria Italienne,Budget_price,Italian,charming quaint homey,classic inspired approachable great large
+179,Felice 64 Wine Bar,Average_price,Italian,airy rustic bustling adorable,relaxed linear rich Italian modern traditional classic Italian small
+180,Shun Lee Palace,Average_price,Chinese,light-filled,silky best
+181,Aretsky's Patroon,Average_price,American,cozy airy,classic legendary superb contemporary American warm polished beautiful suitable wide light rooftop festive main many private superb
+182,Frankie and Johnnie's Steakhouse - 46th Street,Average_price,Steakhouse,bustling airy inconspicous,celebrated longest oldest
+183,Davio's Northern Italian Steakhouse - Manhattan,Average_price,Steakhouse,inconspicous cozy,young ambitious locally-owned trendy culinary wine new simple regional Italian best simple-yet-unique attentive
+184,Massoni,Average_price,Italian,fashionable bustling,unique full-service seasonal able classic Italian multi-cultural biyrani-style cool 2nd full available additional classic
+185,.Tarallucci e Vino Upper West Side,Average_price,Italian,bustling,famous Italian classic southern Italian fresh uphold high cozy quick elegant relaxed lazy
+186,Clement,Average_price,American,rustic adorable bustling airy,modern aesthetic American international award-winning quintessential different Private semi-private available.Adjacent suggested available small Asian
+187,MIFUNE New York,Average_price,Japanese,cozy classic,traditional Japanese supreme French innovative artisticallycomposed
+188,Sutton Inn,Budget_price,American,quaint,intimate seasonal local unique healthy American simple
+189,The House in Gramercy Park,Average_price,American,airy,restored historic intimate large
+190,Cleo At MONDRIAN PARK AVENUE,Average_price,Mediterranean,rustic,illustrious shareable social modern fresh local bottle international
+191,Naoki Takahashi,Average_price,Japanese,classic welcoming,hidden seasonal multi-course Japanese Zen-like available
+192,Junoon Main Dining Room,High_price,Indian,posh elegant classy,person.Table old ala authentic modern Indian deep native talented same one-of-a-kind fresh ground daily unique
+193,Brasserie Cognac,Average_price,French,welcoming classic,French authentic French outdoor casual original French classic main private gorgeous wine first-growth
+194,Scampi,Budget_price,Italian,quaint,best great
+195,Society Cafe,Average_price,American,classic bustling inconspicous,charming new market-to-table American award-winning such new nearby 4-days seasonal sustainable beautiful new modern sophisticated natural soft warm alive true
+196,Suzuki,High_price,Japanese,romantic elegant chic,main modern contemporary traditional Japanese table seasonal main
+197,Inakaya,Average_price,Japanese,classic inconspicous light-filled,original first traditional Robata-yaki substantial distinguished former other more Japanese sunken Robata-yaki traditional fresh own healthy excess online
+198,Rossini's Restaurant,Average_price,Italian,light-filled,charming fine genuine warm Italian many long new innovative Italian wide fish favorite large roomy interior perfect important intimate romantic
+199,Charlie Palmer Steak,Average_price,Steakhouse,light-filled adorable,midtown dynamic bold big progressive American seasonal exceptional cultural local artisanal
+200,Bocca,Budget_price,Italian,homey rustic informal charming,creative imported Italian proud extensive elegant cozy casual friendly courteous
+201,NYY Steak Midtown- New York Yankees Steakhouse,Average_price,Steakhouse,airy,traditional American unique greatest best fresh indulgent modern elevated traditional
+202,Irvington,Budget_price,Contemporary American,charming boisterous modest cheerful,Mediterranean-influenced American fresh locally-sourced seasonally-driven locally-sourced straightforward large format rotisserie-roasted global small-batch refined classic fresh cold-pressed local
+203,Charlie Palmer at The Knick,Average_price,Contemporary American,inconspicous,enviable Midtown market-driven adjacent lighter rumored exceptional inventive new
+204,Nick & Stef’s Steakhouse - New York,Average_price,Steakhouse,light-filled cozy fashionable airy,next best
+205,Altesi Ristorante,Average_price,Italian,bustling welcoming classic,rich culinary freshest seasonal outdoor enclosed elegant authentic Italian
+206,Giorgio's of Gramercy,Average_price,Contemporary American,light-filled,top eclectic freshest great creative simple earthy
+207,Perrine,Average_price,French American,welcoming adorable,new French-American seasonally-inspired daily vibrant harmonious raw vegetable whimsical indulgent
+208,La Fonda Del Sol,Average_price,Spanish,fashionable rustic light-filled,vibrant Spanish expansive modern iconic east tuna garlic intimate main whole short
+209,Morrell Wine Bar & Cafe,Average_price,American,welcoming airy,more largest extensive rare hard-to-find prime enjoy famous full innovative large
+210,Bobby Van's Grill Times Square,High_price,American,vibrant upscale luxurious posh,newest theatre outdoor
+211,Kingside,Average_price,American,adorable bustling airy,American fresh locally-sourced hand-crafted seasonally-driven small fish extensive wide small-batch exceptional international ever-changing innovative fresh modern
+212,I Trulli,Average_price,Italian,cozy,more delicious Italian regional hand-rolled fresh all-Italian wine happy 3-8pm popular all-year main rustic warmer lush finest
+213,Haru Hell's Kitchen,Average_price,Japanese,welcoming inconspicous cozy,latest 20th beautiful spacious full new menu seasonal dull stylish vibrant prepared Japanese special generous
+214,Bob's Steak & Chop House-New York,High_price,Steakhouse,serene classy vibrant romantic,traditional American big fine large finest prime top prime same prime top prime real
+215,Il Postino,High_price,Italian,classy serene vibrant,authentic Italian superior memorable wonderful
+216,Restaurant Nippon,Average_price,Japanese,cozy,first Japanese authentic nihachi own exclusive Japanese only natural home-made daily soy Canadian above Japanese Japanese Japanese
+217,Green Fig,Average_price,Mediterranean,classic,Green modern southern unique locally-sourced fresh
+218,Tender Restaurant,Average_price,American,bustling fashionable welcoming cozy,trendy gracious Modern American finest premium polished design friendly formal
+219,.Tarallucci e Vino Union Square,Average_price,Italian,fashionable,famous Italian classic southern Italian authentic Italian rustic casual fresh inspired Italian versatile wine authentic romantic casual daily happy
+220,Bobby Van's Steakhouse - 54th Street,Average_price,Steakhouse,bustling welcoming cozy,same great same great other historic such untold large beautiful spacious other good old
+221,Astor Court,Average_price,International,inconspicous fashionable airy cozy,stylish Open most tantalizing
+222,Sofrito NYC,Budget_price,Latin / Spanish,quaint boisterous,aromatic authentic magnificent delightful fantastic
+223,Tarallucci e Vino NoMad,Average_price,Italian,adorable,famous Italian classic southern Italian latest Top Italian modern right casual stylish fresh extensive eclectic
+224,Frankie & Johnnie's Steakhouse - Manhattan,Average_price,Steak,airy adorable inconspicous cozy,former sleek uncluttered exceptional prime dry-aged secret
+225,The Shakespeare,Average_price,British,rustic inconspicous,well-kept friendly casual no-frills sophisticated 14th perfect elegant 19th complete elegant stunning same small
+226,Gaby Brasserie Française,Average_price,French,welcoming rustic classic light-filled,top French classic French American De-Light low 30-minute extensive different artisanal renowned unwind
+227,SOUTHGATE Bar & Restaurant,Average_price,American,inconspicous,casual-upscale American classic French classic modern unpretentious wide affordable high Late available 3-5PM
+228,Empire Steakhouse - 237 West 54 Street off of Broadway,High_price,Steakhouse,posh intimate serene luxurious,west modern all-white marble additional famous dry-aged vast stellar wide fresh such 4-to 5-lb selective many most first square private available
+229,STATE Grill and Bar,Average_price,American,airy,American
+230,The Lambs Club - Bar,High_price,Contemporary American,romantic vibrant,full daytime large Street.Live Music private various major
+231,Bocca Di Bacco (Chelsea - 20th St.),Budget_price,Italian,informal boisterous charming,dynamic native first new menu refined great
+232,Amma,Average_price,Indian,classic rustic welcoming,same upper east stylish sensuous short numerous wine weekly guest different old fresh
+233,Ben and Jack's Steakhouse 44th Street,High_price,Steakhouse,luxurious classy chic vibrant,quintessential first holy few time-honored classic prime dry-aged classic delectable exemplary
+234,Jue Lan Club,Average_price,Chinese,rustic airy,multi-level Chinese outdoor several distinctive private flavorful Chinese raw numerous other Chinese classic contemporary social
+235,Empire Steak House- East,High_price,Steakhouse,exclusive luxurious upscale,two-raised wrap-around hand-painted main ultimate famous dry-aged vast stellar wide fresh such 4-to 5-lb 50th exclusive selective many most
+236,Bread & Tulips,Budget_price,Italian,cheerful homey,cozy rustic Italian casual regional traditional etc.The warmly-lit informal comfortable simple welcoming larger family-style optional available
+237,Tudor City Steak House,Average_price,Steak,fashionable,bi-leveled traditional rich clubby contemporary glossy white custom commissioned next typical shellfish yellow cheese native
+238,Triomphe,Average_price,French American,bustling rustic cozy fashionable,Gracious elegant pre- sure right seasonal French-American international
+239,Blenheim,Average_price,Contemporary American,welcoming light-filled cozy fashionable,new proprietary 150-acre maple curated organic biodynamic natural artisanal modern traditional farm-to-table antique
+240,1 Darbar,Budget_price,Indian,rustic electic cheerful comfortable,high bi-level superb Indian great lavish new delicious everyday
+241,Zio Ristorante,Average_price,Italian,adorable,authentic Italian casual Italian good restaurant warm fabulous fresh monthly three-course Happy good true contented well-fed popular Gluten-free vegetarian available fantastic private special
+242,Meet the Meat,Average_price,Steakhouse,adorable airy,finest such prime steaks other fine such lamb delectable complete top special delicious happy full
+243,The Morgan Dining Room,Budget_price,American,informal kid_friendly,early-twentieth-century original restored
+244,Montebello Ristorante Italiano,Average_price,Italian,welcoming,classic special romantic simple fresh proven warm attentive artistic sublime
+245,2 Darbar Grill,Budget_price,Indian,boisterous informal kid_friendly,superb Indian great
+246,Gin Parlour - InterContinental New York,Budget_price,Contemporary American,homey boisterous informal,popular elegant outstanding American Continental fresh innovative simple elegant freshest exciting new light healthy perfect busy light comfortable lounge-like
+247,Michael Jordan's The Steak House N.Y.C.,Average_price,Steakhouse,welcoming,finest extensive eclectic private semi private available pre-fixe
+248,Beauty & Essex- New York,Average_price,Tapas / Small Plates,fashionable light-filled rustic,grand square lower grand intimate Various unfold large own unique timeless upscale multi-ethnic elegant bold bistro modern whimsical sophisticated
+249,Mercer Kitchen,Budget_price,American,kid_friendly homey informal,chic sophisticated historic Christian industrial classic market-driven seasonal simple elegant wood-fired classic open
+250,The Dutch,Average_price,American,cozy airy,American local roadside same cultural great Award-winning roots-inspired American fresh shellfish local best
+251,Lafayette,Average_price,French,airy bustling rustic cozy,everyday French French downtown Open grand market-driven light-flushed rotisserie open artisanal light warm open
+252,Vandal,High_price,Tapas / Small Plates,chic classy luxurious intimate,
+253,Gotham Bar and Grill,High_price,Contemporary American,chic luxurious posh,first finest accessible Contemporary American sophisticated institutional unparalleled fresh wine regularly revamped.Gotham Most Most
+254,Il Buco Alimentari & Vineria,Average_price,Italian,light-filled airy rustic adorable,simple convivial like inside-a-restaurant ample domestic open rustic communal long marble seasonal salumi/cheese small fresh upstairs private adjacent main available seated Whole short gelato
+255,Bar Primi,Budget_price,Italian,kid_friendly rustic,primi small essential fresh prepared main non-GMO organic handed-down more different daily special shareable artisanal simple home-style
+256,Lure New York,Average_price,Seafood,airy classic,Contemporary American extensive raw first striking reminiscent elegant bottle wine
+257,Nix,Average_price,Vegetarian,adorable,new personal affordable seasonal innovative open
+258,Lupa,Average_price,Italian,cozy,high moderately-priced boisterous unpretentious warm
+259,Claudette,Budget_price,French,cheerful homey charming modest,new elegant sister warm great rich individual local North African cellar wide unique extensive verre
+260,Empellon Taqueria,Average_price,Mexican,classic welcoming adorable cozy,high most worth further well-made ubiquitous obvious
+261,Perry St,Average_price,Contemporary American,welcoming bustling,relaxed own keen exquisite French Asian local more
+262,Boucherie - West Village,Average_price,French,fashionable,traditional FRENCH former French timeless absinthe-inspired classic prominent 320-seat diverse spacious intimate second-floor private outdoor
+263,Indochine,High_price,Vietnamese,posh serene upscale classy,timeless classic stylish tropical exotic French-Vietnamese perfect intimate private
+264,El Vez New York,Budget_price,Mexican,comfortable rustic,community.Casual contemporary festive Mexican-American true large al burrito deep regional large creative
+265,Public Kitchen,Average_price,"Global, International",classic fashionable welcoming adorable,
+266,Tamarind - Tribeca,Average_price,Indian,rustic bustling light-filled,new dedicated varied culinary assertive
+267,The Stanton Social,Average_price,Tapas / Small Plates,light-filled,neighborhood hot culinary multiple upper guest
+268,Hearth,High_price,American,upscale,warm comfortable seasonal locally-sourced Italian
+269,Sarabeth's TriBeCa,Budget_price,American,comfortable electic modest,great retail
+270,Leuca,Average_price,Italian,adorable welcoming,Southern Italian wood-fired refined casual sophisticated approachable coastal
+271,Sant Ambroeus SoHo,Average_price,Italian,bustling light-filled rustic,contemporary traditional branded chic vibrant exquisite native chef culinary historic northern risotti.Sant robust Italian high-energy open bold unique highest
+272,Il Cantinori,High_price,Italian,luxurious vibrant,old rustic wooden voluminous floral romantic elegant unique traditional complete seasonal affectionate daily wine northern Italian
+273,MR CHOW - TriBeca,High_price,Chinese,vibrant posh upscale,famous most American second original latest hippest attractive awful soup Chinese many old authentic skillful best prepared
+274,Narcissa Restaurant,Average_price,Contemporary American,airy,feisty clean impeccably-sourced new local organic healthy multi-layered American large open other charming private al warmer
+275,Il Mulino New York - Downtown,High_price,Italian,exclusive classy,authentic unparalleled service.There Italian fine Italian elite Italian one-of-a-kind delicious outstanding Italian
+276,Sant Ambroeus - West Village,Average_price,Italian,inconspicous airy,original local legendary old-world rich culinary authentic Milanese casual elegant
+277,Pig and Khao,Average_price,Southeast Asian,airy fashionable,Top pork garlic secret sour chili fish toasted soft self-serve
+278,Little Park,Average_price,Contemporary American,bustling airy welcoming,seasonal best longtime local Peak organic free-range grass-fed line-caught
+279,Neta,High_price,Japanese,upscale exclusive vibrant,fresh best unique warm special
+280,Tutto Il Giorno -Tribeca,High_price,Italian,exclusive romantic chic upscale,seaside authentic sophisticated visionary first incredible chic special proven secret great
+281,Bobo Restaurant,Budget_price,French,modest kid_friendly quaint charming,easy downstairs busy chic French sizable gorgeous year-round classic French West lamb grand
+282,Rafele,Average_price,Italian,light-filled rustic,fresh authentic Italian wine highest rustic Italian
+283,Essex,Budget_price,Fusion / Eclectic,boisterous informal,historic loft-like multi-level contemporary happy lively top other expansive festive private
+284,Tiny's & the Bar Upstairs,Average_price,Contemporary American,airy cozy,original whimsical American warm-hearted artistic true classic local Modern American Italian French
+285,BAAR BAAR,Average_price,Contemporary Indian,airy inconspicous classic adorable,Indian first Indian modern regional Indian
+286,The Musket Room,Average_price,International,inconspicous adorable fashionable,diverse Asian modern local seasonal modern culinary main short dietary vegan
+287,Delmonico's,High_price,Steakhouse,chic romantic upscale,first profound American notable affluent classic such culinary creative other inventive casual main
+288,Root & Bone,Average_price,Southern,adorable,traditonal timeless honest local true walk-in limited more
+289,Bâtard,High_price,Modern European,upscale elegant chic serene,legendary modern European Austrian diverse inventive delicious 2-course excellent former relaxed golden wine best
+290,Left Bank NYC,Average_price,American,bustling,European landmarked historic large unpretentious local entrepreneurial sincere simple wholesome delicious open
+291,American Cut Steakhouse,Average_price,Steakhouse,classic fashionable welcoming,American new 180-seat modern monumental fine culinary spectacular extensive private private perfect intimate special large-scale
+292,Khe-Yo,Average_price,Laotian,light-filled welcoming cozy,Laotian green Laotian unique Laotian local seasonal highest best exposed intimate forget—sa
+293,Toloache Thompson St.,Average_price,Mexican,classic fashionable welcoming bustling,pronounced chef-owner Julian contemporary creative seasonal natural more festive two-story exceptional elegant decorative
+294,Nobu Downtown | Bar & Lounge,High_price,Japanese,posh chic intimate,prix inventive new one-of-a-kind Japanese fourth coveted 6-seat ideal social guest historic modern Japanese perfect all-day exclusive
+295,Feast,Average_price,Contemporary American,cozy adorable fashionable bustling,seasonal American modern classic rustic warm
+296,Temple Court,Average_price,American,bustling cozy adorable,original fine historic lower modern classic 20th
+297,Pera Soho,Average_price,Mediterranean,bustling rustic classic,transportative renowned warm vibrant.Pera culinary cultural Eastern contemporary authentic unique general private heated colder
+298,Tribeca Grill,Average_price,American,welcoming adorable light-filled,downtown true Co-owned renowned legendary many prestigious coveted must-visit extensive largest many rare bottle ten longest most beloved
+299,Fifty,Average_price,Contemporary American,inconspicous,charming next South American popular uni delicate seasonal
+300,Dos Caminos - SoHo,Average_price,Mexican,classic,vibrant authentic upscale fresh margarita robust
+301,Noreetuh,Average_price,American,light-filled airy,modern Hawaiian extensive simpler open Hawaiian traditional Hawaiian
+302,El Toro Blanco,Average_price,Mexican,inconspicous,Mexican substantial coastal guacamole extensive
+303,SAN CARLO  Osteria Piemonte,Average_price,Italian,airy light-filled,perfect authentic exceptional largest first ancient culinary culinary few
+304,The Library at the Public,Budget_price,American,utilitarian comfortable informal cheerful,Astor-era mezzanine new downtown classic inspired eclectic American local
+305,CUT By Wolfgang Puck at FS Downtown New York,Average_price,Steak,airy,new sixth original sleek new adjacent several such various finest
+306,Osteria della Pace - Eataly NYC Downtown,Average_price,Italian,classic,southern upscale Italian separate main authentic emotional Italian known.The Italian wide Italian available
+307,Tuome,Average_price,Contemporary American,adorable airy rustic bustling,ingredient contemporary American Asian
+308,Barano,Budget_price,Italian,quaint,Seasonal Italian wood-fired Italian Ischian casual approachable extensive hard outdoor
+309,Buttermilk Channel,Average_price,American,airy fashionable bustling cozy,American weekday American regional fresh local separate vegetarian available vegan gluten free free wine small traditional organic biodynamic full artisan
+310,La Loteria,Average_price,Contemporary Mexican,classic fashionable inconspicous,new authentic Similar varied Mexican unique varied cultural surprising elemental luscious inspired
+311,Il Mulino Prime,High_price,Italian,exclusive vibrant intimate classy,modern Italian unparalleled prime dry-aged inspired Italian modern Sun-dappled versatile
+312,Socarrat Paella Bar - Nolita,Average_price,Spanish,classic,unable small intimate large communal table perfect delectable sensuous authentic delicious traditional fried true
+313,La Sirene,Average_price,French,classic,special many major
+314,Fonda - East Village,Average_price,Contemporary Mexican,welcoming,authentic Incredible best
+315,Kingsley,Average_price,Contemporary American,bustling welcoming adorable,new Best American seasonal local market-driven contemporary French-American wine dynamic unique interesting classic delicious creative
+316,Porsena,Budget_price,Italian,kid_friendly modest homey,few convivial Italian pasta-centric finest artisanal traditional imaginative tasty main simple timeless classic Italian such spaghetti le colorful narrow back
+317,The Palm Tribeca,High_price,Steakhouse,serene intimate,legendary newest Prime-aged jumbo classic Italian mouthwatering
+318,Nickel & Diner,Average_price,American,classic,upgraded freshest available eclectic
+319,David Burke Kitchen,Average_price,American,adorable,rustic American artisan green freshest of-the-moment authentic regional deft finest
+320,Il Cortile Restaurant,Average_price,Italian,classic,highest full wide pre-fix
+321,Felice 15 Gold Street,Average_price,Italian,welcoming rustic bustling,walk-in larger many small walk-in ultimate wine authentic Italian intimate 40-seat upstairs successful favorite uptown amongst local serious
+322,Cipriani - Wall Street,Average_price,Italian,cozy classic light-filled,Italian longstanding original perfect relaxed
+323,Rosa Mexicano - TriBeCa,Average_price,Mexican,adorable bustling welcoming rustic,standard authentic inspired fourth fresh agave
+324,North Square,Average_price,American,cozy adorable bustling airy,long-standing generous dinner separate speak-easy seasonal American local own thoughtful
+325,Edi and The Wolf,Budget_price,Austrian,comfortable kid_friendly electic,traditional eastern Austrian tavern rustic cozy outdoor rustic prepared fine casual extensive Austrian classic new traditional Austrian
+326,Gran Morsi,Average_price,Italian,inconspicous bustling classic rustic,Italian elegant convivial boldly-flavored Italian strong small many downtown special casual
+327,Bistrot Leo,Average_price,French,fashionable rustic bustling classic,former French original Italian
+328,Reserve Cut at Setai,High_price,Kosher,posh,new contemporary Eastern Asian 250-seat main sushi wine additional available special French Asian inspired Eastern prime dry private
+329,Rice & Gold,Average_price,Asian,fashionable light-filled,Asian modern many more dinner.The 11-seat 180-seat graffiti local robust
+330,Thalassa,Average_price,Seafood,cozy classic,Contemporary rare Greek hard boutique wine
+331,Strip House Speakeasy,High_price,Steakhouse,vibrant,old-world modern charred such sure famed 24-Layer top namesake only white bordello original second
+332,Greenwich Steakhouse,High_price,Steakhouse,serene classy,lower prime best
+333,Schilling,Budget_price,Austrian,charming utilitarian kid_friendly,Michelin-starred newest former Austrian day-to-night chef contemporary Austrian
+334,Morton's The Steakhouse - World Trade Center,High_price,Steakhouse,classy chic,prime-aged fine crisp white exceptional more special online special
+335,MarkJoseph Steakhouse,High_price,Steakhouse,romantic vibrant serene,best USDA authentic excellent polished comfortable table prestigious
+336,The Tuck Room- New York,Budget_price,Gastro Pub,quaint rustic,intimate craveable American whimsical energetic local favorite Personable liquid bang-up ample Gracious extensive fresh
+337,Talde,Budget_price,Asian,boisterous charming electic utilitarian,successful creative Asian-American first new unexpected enjoyable delectable open walk-in
+338,Bar Freud,Average_price,Austrian,adorable bustling light-filled,contemporary beloved Austrian
+339,Yellow Magnolia Café,Budget_price,American,electic cheerful comfortable,vegetable-focused serene daily distinctive yellow-flowered
+340,Benchmark Restaurant,Average_price,Contemporary American,bustling airy light-filled cozy,pasture-raised locally-grown diverse traditional contemporary global different Bone-in Other major several rich rustic spacious
+341,Altesi Downtown,Average_price,Italian,bustling light-filled inconspicous,iconic seasonal traditional Italian small cheese wood-fired lunchbox-style small
+342,Harvey @ The Williamsburg Hotel,Budget_price,Contemporary American,quaint kid_friendly,local sourced vegetable whole
+343,ATRIO Wine Bar & Restaurant,Average_price,Contemporary American,adorable,carefully-sourced seasonally-inspired authentic curated interesting approachable casual unique contemporary
+344,Bobby Van's Steakhouse - Broad Street,Average_price,Steakhouse,airy bustling fashionable,original lush evocative dark cream-colored beautiful grand gorgeous 20-foot floor-to-ceiling soft grand succulent 28-day dry-aged prime freshest
+345,Brasserie Seoul,Budget_price,Contemporary French,comfortable modest electic,young culinary Incredible reinvented French bold Korean Korean classic French
+346,Greenhouse Cafe,Budget_price,Continental,homey comfortable rustic utilitarian,full catered
+347,"Lorenzo's Restaurant, Bar & Caberet - Hilton Garden Inn - SI",Average_price,Italian,classic airy cozy light-filled,beautiful Italian Italian Contemporary American attentive gorgeous live dining

@@ -1,0 +1,39 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    
+Objective:  profit = 42 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 c_u_Constraint1_
+                    NU       4.00000        .               -Inf         .           -3.00000      30.00000 x(drs)
+                                           3.00000       4.00000           +Inf          +Inf          +Inf
+
+     2 c_u_Constraint2_
+                    NU      12.00000        .               -Inf         .           -2.50000      12.00000 x(wdw)
+                                           2.50000      12.00000           +Inf          +Inf          +Inf
+
+     3 c_e_ONE_VAR_CONSTANT
+                    NS       1.00000        .            1.00000         .               -Inf      42.00000 ONE_VAR_CONSTANT
+                                            .            1.00000           +Inf          +Inf      42.00000
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    
+Objective:  profit = 42 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x(drs)       BS       4.00000       3.00000        .                -Inf        .           30.00000 c_u_Constraint1_
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+     2 x(wdw)       BS       6.00000       5.00000        .                -Inf        .           12.00000 c_u_Constraint2_
+                                            .               +Inf        6.00000          +Inf          +Inf
+
+     3 ONE_VAR_CONSTANT
+                    BS       1.00000        .             .             1.00000          -Inf          -Inf
+                                            .               +Inf        1.00000          +Inf          +Inf
+
+End of report
