@@ -1,13 +1,14 @@
 import importlib
 import numpy as np
 
-def computeFitness(f, pop, **kwargs):
+def computeFitness(f, pop, vec = False, **kwargs):
     '''
     Computes fitness based on passed in function.
     
     Parameters:
     f (function, required): the function used to evaluate fitness
     pop (numpy array, required): the population on which to evaluate fitness - individuals in rows.
+    vec defaults to False and doesn't need to be included for default behavior, set it True if your fitness function can be evaluated on the entire population at once without a loop
     **kwargs (named arguments, optional): additional arguments that will be passed through to the fitness function
     
     Returns a numpy array of computed fitnesses.
@@ -17,11 +18,15 @@ def computeFitness(f, pop, **kwargs):
     
     #create the fitness array of zeros
     fitness = np.zeros(pop_size)
-    #fill the fitness array
-    for j in range(pop_size):
-        fitness[j] = f(pop[j], **kwargs)
+    
+    if not vec:
+        #fill the fitness array
+        for j in range(pop_size):
+            fitness[j] = f(pop[j], **kwargs)
+    else:
+        fitness = f( pop, **kwargs)
         
-    return fitness    
+    return fitness
 
 # Sort population
 def sortPop(pop, fitness):
@@ -48,7 +53,7 @@ def sortPop(pop, fitness):
 # tournament selection
 def tournamentSelection(pop, tourn_size, debug=False):
     '''
-    Implements tournameent selection on a population.
+    Implements tournament selection on a population.
     
     Parameters:
     pop (numpy array, required): The sorted population from which selections will be drawn.
@@ -61,17 +66,26 @@ def tournamentSelection(pop, tourn_size, debug=False):
     '''
     #get the population size
     pop_size, ind_size = pop.shape[0], pop.shape[1]
+    
+    approach = 2
 
     # initialize selected population
     select_pop = np.zeros((pop_size,ind_size)) 
-    for j in range(pop_size):
-        subset_pos = np.random.choice(pop_size,tourn_size,replace=False) # select without replacement
-        smallest_pos = np.min(subset_pos) # choose index corresponding to lowest fitness
-        if debug:
-            print('Individuals in tournament:', subset_pos)
-            print('Individual selected:', smallest_pos)
-        select_pop[j] = pop[smallest_pos]
-    return select_pop     
+    
+    if approach == 1:
+        for j in range(pop_size):
+            subset_pos = np.random.choice(pop_size,tourn_size,replace=False) # select without replacement
+            smallest_pos = np.min(subset_pos) # choose index corresponding to lowest fitness
+            if debug:
+                print('Individuals in tournament:', subset_pos)
+                print('Individual selected:', smallest_pos)
+            select_pop[j] = pop[smallest_pos]
+    else:
+        subset_pos = np.random.randint(0,pop_size,size=(pop_size,tourn_size))
+        smallest_pos = np.amin(subset_pos,axis=1)
+        select_pop = pop[smallest_pos]
+        
+    return select_pop      
 
 ####################################
 # Crossover operators
