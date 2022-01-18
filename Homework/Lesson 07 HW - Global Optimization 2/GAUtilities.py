@@ -302,6 +302,28 @@ def shuffleMutation(pop, mut_prob, ind_prob, debug=False):
     return mut_pop.astype(int)     
 
 
+def flipSegmentsMutation(pop, mut_prob, ind_prob, debug=False):
+    '''
+    Performs multiple random segment reversal on permutation populations
+    
+    Parameters:
+    pop (numpy array, required):  The population, individuals
+    mut_prob (real between 0 and 1, required): The probability an individual will mutate
+    ind_prob (real between 0 and 1, required): The probability a gene will be part of a segment reversal
+    '''
+    pop_size, ind_size = pop.shape[0], pop.shape[1]
+    mut_pop = np.zeros((pop_size,ind_size),dtype=int)
+    for k in range(pop_size):
+        individual = pop[k].copy() # make a copy to avoid conflicts
+        if np.random.uniform() < mut_prob:
+            num_swaps = np.random.binomial(ind_size,ind_prob)
+            for m in range(num_swaps):  # choose now many swaps
+                i, j = np.sort(np.random.choice(ind_size, 2, replace=False))
+                individual = np.concatenate((individual[0:i], individual[j:-ind_size + i - 1:-1],
+                                  individual[j + 1:ind_size]))
+        mut_pop[k] = individual.copy()
+    return mut_pop.astype(int)
+
 # Elitism
 def addElitism(initPop, mutPop, num_elite):
     '''
