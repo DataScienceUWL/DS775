@@ -1,14 +1,13 @@
 import importlib
 import numpy as np
 
-def computeFitness(f, pop, vec = False, **kwargs):
+def computeFitness(f, pop, **kwargs):
     '''
     Computes fitness based on passed in function.
     
     Parameters:
     f (function, required): the function used to evaluate fitness
     pop (numpy array, required): the population on which to evaluate fitness - individuals in rows.
-    vec defaults to False and doesn't need to be included for default behavior, set it True if your fitness function can be evaluated on the entire population at once without a loop
     **kwargs (named arguments, optional): additional arguments that will be passed through to the fitness function
     
     Returns a numpy array of computed fitnesses.
@@ -18,15 +17,40 @@ def computeFitness(f, pop, vec = False, **kwargs):
     
     #create the fitness array of zeros
     fitness = np.zeros(pop_size)
-    
-    if not vec:
-        #fill the fitness array
-        for j in range(pop_size):
-            fitness[j] = f(pop[j], **kwargs)
-    else:
-        fitness = f( pop, **kwargs)
+    #fill the fitness array
+    for j in range(pop_size):
+        fitness[j] = f(pop[j], **kwargs)
         
     return fitness
+
+# create population
+def createPop(pop_size, ind_size, type = "float", low = 0, high = 10):
+    '''
+    Creates a population of random individuals as rows in a numpy array.  Bounds are ignored for boolean and permuation types.
+
+    Parameters:
+    pop_size (integer, required): number of individuals
+    ind_size (integer, required): number of genes in each individual
+    type (string, default is float):  must be permutation, boolean, integer, or float
+    low (float or integer, default is 0):  lower bound for integer or float genes
+    high (float or integer, default is 10): upper bound for integer or float genes (contains upper bound for ints)
+    '''
+
+    if type == "float":
+        pop = np.random.uniform(low, high, size = (pop_size, ind_size))
+    elif type == "integer":
+        pop = np.random.randint(low, high + 1, size = (pop_size, ind_size), dtype = int)
+    elif type == "boolean":
+        pop = np.random.randint(0, 2, size = (pop_size, ind_size) ).astype(bool)
+    elif type == "permutation":
+        pop = np.zeros( (pop_size, ind_size), dtype = 'int')
+        for k in range(pop_size):
+            pop[k] = np.random.permutation( ind_size )
+    else:
+        print("type must be integer, boolean, permutation, or float")
+        pop = NaN
+        
+    return pop
 
 # Sort population
 def sortPop(pop, fitness):
@@ -53,7 +77,7 @@ def sortPop(pop, fitness):
 # tournament selection
 def tournamentSelection(pop, tourn_size, debug=False):
     '''
-    Implements tournament selection on a population.
+    Implements tournameent selection on a population.
     
     Parameters:
     pop (numpy array, required): The sorted population from which selections will be drawn.
@@ -66,26 +90,17 @@ def tournamentSelection(pop, tourn_size, debug=False):
     '''
     #get the population size
     pop_size, ind_size = pop.shape[0], pop.shape[1]
-    
-    approach = 2
 
     # initialize selected population
     select_pop = np.zeros((pop_size,ind_size)) 
-    
-    if approach == 1:
-        for j in range(pop_size):
-            subset_pos = np.random.choice(pop_size,tourn_size,replace=False) # select without replacement
-            smallest_pos = np.min(subset_pos) # choose index corresponding to lowest fitness
-            if debug:
-                print('Individuals in tournament:', subset_pos)
-                print('Individual selected:', smallest_pos)
-            select_pop[j] = pop[smallest_pos]
-    else:
-        subset_pos = np.random.randint(0,pop_size,size=(pop_size,tourn_size))
-        smallest_pos = np.amin(subset_pos,axis=1)
-        select_pop = pop[smallest_pos]
-        
-    return select_pop      
+    for j in range(pop_size):
+        subset_pos = np.random.choice(pop_size,tourn_size,replace=False) # select without replacement
+        smallest_pos = np.min(subset_pos) # choose index corresponding to lowest fitness
+        if debug:
+            print('Individuals in tournament:', subset_pos)
+            print('Individual selected:', smallest_pos)
+        select_pop[j] = pop[smallest_pos]
+    return select_pop     
 
 ####################################
 # Crossover operators
@@ -316,6 +331,28 @@ def shuffleMutation(pop, mut_prob, ind_prob, debug=False):
     return mut_pop.astype(int)     
 
 
+def flipSegmentsMutation(pop, mut_prob, ind_prob, debug=False):
+    '''
+    Performs multiple random segment reversal on permutation populations
+    
+    Parameters:
+    pop (numpy array, required):  The population, individuals
+    mut_prob (real between 0 and 1, required): The probability an individual will mutate
+    ind_prob (real between 0 and 1, required): The probability a gene will be part of a segment reversal
+    '''
+    pop_size, ind_size = pop.shape[0], pop.shape[1]
+    mut_pop = np.zeros((pop_size,ind_size),dtype=int)
+    for k in range(pop_size):
+        individual = pop[k].copy() # make a copy to avoid conflicts
+        if np.random.uniform() < mut_prob:
+            num_swaps = np.random.binomial(ind_size,ind_prob)
+            for m in range(num_swaps):  # choose now many swaps
+                i, j = np.sort(np.random.choice(ind_size, 2, replace=False))
+                individual = np.concatenate((individual[0:i], individual[j:-ind_size + i - 1:-1],
+                                  individual[j + 1:ind_size]))
+        mut_pop[k] = individual.copy()
+    return mut_pop.astype(int)
+
 # Elitism
 def addElitism(initPop, mutPop, num_elite):
     '''
@@ -382,6 +419,7 @@ def updateStats(stats, fitness, best_x, pop, iter, update_iter):
     '''
     # collect stats and output to screen
     min_fitness = min(fitness) # best for this iteration
+
     #get stats less than this iteration
     snipped_stats = stats[0:iter]
     if len(snipped_stats) > 0:
@@ -389,7 +427,9 @@ def updateStats(stats, fitness, best_x, pop, iter, update_iter):
         best_fitness = min(snipped_stats[:,1])
     else:
         best_fitness = min_fitness
-        best_x = []
+        index = np.argmin(fitness)
+        best_x = pop[index]
+    
     if min_fitness < best_fitness: # best for all iterations
         best_fitness = min_fitness
         index = np.argmin(fitness)
@@ -398,5 +438,8 @@ def updateStats(stats, fitness, best_x, pop, iter, update_iter):
     stats[iter+1,:] = np.array([iter+1,min_fitness, best_fitness])
     if (iter+1) % update_iter == 0 or (iter+1) ==1 :
         print(f"{stats[iter+1,0]:9.0f} | {stats[iter+1,1]:14.3e} | {stats[iter+1,2]:12.3e}")
+        
     
     return stats, best_fitness, best_x
+
+
