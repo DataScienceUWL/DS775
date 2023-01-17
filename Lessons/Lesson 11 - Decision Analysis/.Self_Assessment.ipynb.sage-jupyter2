@@ -1,0 +1,14 @@
+{"backend_state":"init","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"trust":true,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"46e864","input":"","pos":10,"type":"cell"}
+{"cell_type":"markdown","id":"10b7c6","input":"## Self Assessment Question 5\n\nApply Bayes' decision rule to to decide if you should publish yourself or use the publisher.","pos":9,"type":"cell"}
+{"cell_type":"markdown","id":"51c089","input":"## Self Assessment Question 4\n\nApply the maximum likelihood strategy to to decide if you should publish yourself or use the publisher.","pos":7,"type":"cell"}
+{"cell_type":"markdown","id":"7124f5","input":"## Self Assessment Solution 1","pos":2,"type":"cell"}
+{"cell_type":"markdown","id":"870e0c","input":"## Self Assessment Solution 4","pos":8,"type":"cell"}
+{"cell_type":"markdown","id":"a93cac","input":"## Self Assessment Question 2\n\nApply the pessimistic decision strategy to to decide if you should publish yourself or use the publisher.","pos":3,"type":"cell"}
+{"cell_type":"markdown","id":"d625f1","input":"## Self Assessment Solution 3","pos":6,"type":"cell"}
+{"cell_type":"markdown","id":"d8d498","input":"## Self Assessment Solution 2","pos":4,"type":"cell"}
+{"cell_type":"markdown","id":"ed2839","input":"# Self Assessment Questions for Lesson 11 - Decision Analysis\n\nFor this lesson we're putting the self-assessment questions in a separate notebook for, we hope, simpler navigation.\n\nThroughout this notebook we'll use one scenario:\n\nYou are the author of what may be a successful book and are trying to decide if you should publish it yourself or have a publisher do it.  \n\nThe publisher will pay you \\$20,000 up front and \\$1 per copy sold.  If you publish yourself it will cost \\$90,000 and you will earn \\$2 per copy sold.\n\nA market survey suggests there is a 70\\% chance the book will be successful.  If it is successful it will sell 200,000 copies, otherwise it will sell 10,000 copies.","pos":0,"type":"cell"}
+{"cell_type":"markdown","id":"f7cdff","input":"## Self Assessment Question 3\n\nApply the optimistic decision strategy to to decide if you should publish yourself or use the publisher.","pos":5,"type":"cell"}
+{"cell_type":"markdown","id":"fce613","input":"## Self Assessment Question 1\n\nMake the payoff table and a corresponding decision tree.","pos":1,"type":"cell"}
+{"id":0,"time":1633219026329,"type":"user"}
+{"last_load":1633274829393,"type":"file"}

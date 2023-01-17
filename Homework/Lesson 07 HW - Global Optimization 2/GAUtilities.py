@@ -134,7 +134,7 @@ def onePointCrossover(pop, cx_prob, debug=False):
         parent1, parent2 = pop[2*j], pop[2*j+1]
         child1, child2 = parent1.copy(), parent2.copy()
         if np.random.uniform() < cx_prob: # crossover occurs
-            cx_point = np.random.randint(1,ind_size-1) # crossover point between 1 and ind_size-1 (if cx happens at end points, nothing happens)
+            cx_point = np.random.randint(1,ind_size) # crossover point between 1 and ind_size
             if debug:
                 print('Crossover happened between Individuals', 2*j, 'and', 2*j+1, 'at point', cx_point)
             child1[0:cx_point], child2[0:cx_point] = parent2[0:cx_point], parent1[0:cx_point]
