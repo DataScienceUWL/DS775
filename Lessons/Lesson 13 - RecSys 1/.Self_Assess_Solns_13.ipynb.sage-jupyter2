@@ -28,5 +28,5 @@
 {"cell_type":"markdown","id":"d2e606","input":"# *Self-Assessment: TF-IDF Vectors - Solution*\nThis is all straight from the book. More information about the TfidfVectorizer is available online here: https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html","pos":18,"type":"cell"}
 {"cell_type":"markdown","id":"db6b5e","input":"# *Self-Assessment: Prerequisites - Solution*\n\nRemember that when you're calculating the quantile for some piece of data, you'll get different results if you calculate it before or after you do your other subsetting. First, let's calculate the views quantile before we figure the rest of our prerequisites.","pos":8,"type":"cell"}
 {"cell_type":"markdown","id":"de5dda","input":"## *Self-Assessment: Metadata Recommender*\n\nReminder: You are using the ratings and the tags. Sanitize both first. Use all the words from each to make the soup.","pos":26,"type":"cell"}
-{"id":0,"time":1670343174222,"type":"user"}
-{"last_load":1670343173647,"type":"file"}
+{"id":0,"time":1683229523636,"type":"user"}
+{"last_load":1683229523513,"type":"file"}

@@ -1,39 +1,42 @@
 GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
 
 Problem:    
-Objective:  obj = 3500.5 (MAXimum)
+Objective:  obj = 52 (MAXimum)
 
    No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
                                           Marginal   Upper bound          range         range   break point variable
 ------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
-     1 c_u_cts(1)_  NU    3001.00000        .               -Inf     2000.00000       -.50000    3000.00000 x(subs)
-                                            .50000    3001.00000     3500.00000          +Inf    3750.00000 c_u_cts(3)_
+     1 c_u_cts(1)_  NU      24.00000        .               -Inf     -108.00000       -.66667     -36.00000 x(x1)
+                                            .66667      24.00000       36.00000          +Inf      60.00000 x(x3)
 
-     2 c_u_cts(2)_  NU    1000.00000        .               -Inf      501.00000      -2.00000    2502.50000 c_u_cts(3)_
-                                           2.00000    1000.00000     1500.50000          +Inf    4501.50000 x(subs)
+     2 c_u_cts(2)_  NU      36.00000        .               -Inf       24.00000      -1.00000      40.00000 x(x3)
+                                           1.00000      36.00000           +Inf          +Inf          +Inf
 
-     3 c_u_cts(3)_  BS    2001.00000     499.00000          -Inf     1000.00000       -.50000    2500.00000 c_u_cts(1)_
-                                            .         2500.00000           +Inf       2.00000    7502.50000 c_u_cts(2)_
-
-     4 c_e_ONE_VAR_CONSTANT
-                    NS       1.00000        .            1.00000         .               -Inf    3500.50000 ONE_VAR_CONSTANT
-                                            .            1.00000           +Inf          +Inf    3500.50000
+     3 c_e_ONE_VAR_CONSTANT
+                    NS       1.00000        .            1.00000         .               -Inf      52.00000 ONE_VAR_CONSTANT
+                                            .            1.00000           +Inf          +Inf      52.00000
 
 GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
 
 Problem:    
-Objective:  obj = 3500.5 (MAXimum)
+Objective:  obj = 52 (MAXimum)
 
    No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
                                           Marginal   Upper bound          range         range   break point variable
 ------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
-     1 x(subs)      BS    1001.00000      -2.50000        .         -1000.00000      -3.00000    3000.00000 c_u_cts(1)_
-                                            .               +Inf     1999.00000      -1.50000    4501.50000 c_u_cts(2)_
+     1 x(x1)        BS      11.00000       5.00000        .              .            4.63636      48.00000 x(x2)
+                                            .               +Inf       11.00000          +Inf          +Inf
 
-     2 x(toys)      BS    2001.00000       3.00000        .          1000.00000       2.50000    2500.00000 c_u_cts(1)_
-                                            .               +Inf     2500.00000       5.00000    7502.50000 c_u_cts(2)_
+     2 x(x2)        NL        .            4.00000        .                -Inf          -Inf          +Inf
+                                           -.33333          +Inf       12.00000       4.33333      48.00000 x(x1)
 
-     3 ONE_VAR_CONSTANT
+     3 x(x3)        BS       3.00000      -1.00000        .            -3.60000      -2.33333      48.00000 x(x4)
+                                            .               +Inf       36.00000       1.66667      60.00000 c_u_cts(1)_
+
+     4 x(x4)        NL        .            3.00000        .                -Inf          -Inf          +Inf
+                                           -.66667          +Inf        6.00000       3.66667      48.00000 x(x3)
+
+     5 ONE_VAR_CONSTANT
                     BS       1.00000        .             .             1.00000          -Inf          -Inf
                                             .               +Inf        1.00000          +Inf          +Inf
 

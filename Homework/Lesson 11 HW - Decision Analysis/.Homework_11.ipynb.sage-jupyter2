@@ -27,5 +27,5 @@
 {"cell_type":"markdown","id":"cd12bc","input":"## Question 5 <font color=\"magenta\">(2 points, auto)</font>\n\nHow many cases should be purchased according to the maximum likelihood criterion?","metadata":{"hidden":true},"pos":8,"type":"cell"}
 {"cell_type":"markdown","id":"d46ffa","input":"## Question 8 <font color=\"magenta\">(2 points, manual)</font>\n\nReapply Bayes’ decision rule when the prior probability of a stable economy is 0.7 and the prior probability of a worsening economy is 0.2.  Demonstrate work somehow in the cell below with an image or by typing out an explanation.","pos":12,"type":"cell"}
 {"cell_type":"markdown","id":"ec88f2","input":"## Question 15 <font color=\"magenta\">(2 points, auto)</font>\n\nCompute the posterior probabilities.  What is the probability that the state of nature is that 5\\% of the items are defective if the single inspected item is not defective.  Enter your probability to 3 decimal places.","pos":19,"type":"cell"}
-{"id":0,"time":1673907135130,"type":"user"}
-{"last_load":1669480866912,"type":"file"}
+{"id":0,"time":1681171420370,"type":"user"}
+{"last_load":1681171416508,"type":"file"}

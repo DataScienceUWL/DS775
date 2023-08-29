@@ -30,5 +30,5 @@
 {"cell_type":"markdown","id":"e4427d","input":"(a) Minimize $C = 8S + 4P$ \n\nsubject to\n\n$\n\\begin{eqnarray*}\n5S + 15P &\\geq& 50 \\\\\n20S + 5P &\\geq& 40 \\\\\n15S + 2P &\\leq& 60 \\\\\nS,P &\\geq& 0\n\\end{eqnarray*}\n$\n  \n(c) Pyomo Solution in next cell","metadata":{"hidden":true},"pos":21,"type":"cell"}
 {"cell_type":"markdown","id":"e7276b","input":"(a) As in the Wyndor Glass Co. problem, we want to find the optimal\n  levels of two activities that compete for limited resources.  Let\n  $x_1$ and $x_2$ be the fraction purchased of the partnership in the\n  first and second friends venture respectively.\n  \n<img src=\"images/screen-solution5.png\" alt=\"Solution\" width=\"640\">\n\n(b) Maximize $P = 9000 x_1 + 9000 x_2$ \n\nsubject to \n\n$x_1 \\leq 1$ \n\n$x_2 \\leq 1$ \n\n$10000 x_1 + 8000 x_2 \\leq 12000$\n\n$400 x_1 + 500 x_2 \\leq 600$ \n\n$ x_1, x_2 \\geq 0$\n\n(c) Solved by the graphical method.  $(x_1^*,x_2^*) = (2/3,\n  2/3)$ and $P^* = 12000$.  ","metadata":{"hidden":true},"pos":9,"type":"cell"}
 {"cell_type":"markdown","id":"fd1b6d","input":"# Lesson 01 - Self-Assessment Solutions","pos":0,"type":"cell"}
-{"id":0,"time":1673890276657,"type":"user"}
-{"last_load":1673890276980,"type":"file"}
+{"id":0,"time":1674852081102,"type":"user"}
+{"last_load":1674852080878,"type":"file"}

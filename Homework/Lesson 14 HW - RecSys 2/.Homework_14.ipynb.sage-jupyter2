@@ -48,5 +48,5 @@
 {"cell_type":"markdown","id":"e03acf","input":"The file **restaurant_ratings.csv** (found in the presentation download for this lesson) contains user ratings for various New York City restaurants. You can read a little more about the data at <a href=\"https://www.kaggle.com/popoandrew/restaurant-week-2018-in-nyc?select=restaurant_week_2018_final.csv\">Kaggle</a>. We have modified the data to generate user ratings that match the star columns in this file.\n\nDo the following:\n\n* read the data into a variable called \"ratings\"\n* display the first 5 lines of the data (get familiar with the data frame)\n* find the minimum restaurant rating\n* find the maximum restaurant rating\n* adjust the rating scale by shifting up 1 if 0 is included","pos":4,"type":"cell"}
 {"cell_type":"markdown","id":"e8a5ec","input":"# **Question 8** Build a Weighted Mean User-Based Filter (manually graded) <font color=\"magenta\">(4 points)</font>\n\nFrom data in the file **restaurant_rating.csv**, build a ratings matrix from the data frame of users, restaurants, and ratings and build a user-based collaborative filtering model that weights mean rank using cosine similarity among users.","pos":18,"type":"cell"}
 {"cell_type":"markdown","id":"edc578","input":"# **Question 4** <font color=\"magenta\">(2 points)</font>\n\nWhat is the maximum restaurant rating?\n\n","pos":8,"type":"cell"}
-{"id":0,"time":1673926212376,"type":"user"}
-{"last_load":1673926212338,"type":"file"}
+{"id":0,"time":1681778838367,"type":"user"}
+{"last_load":1681776259244,"type":"file"}
