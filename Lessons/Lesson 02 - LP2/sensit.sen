@@ -1,42 +1,44 @@
 GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
 
 Problem:    
-Objective:  obj = 52 (MAXimum)
+Objective:  profit = 36 (MAXimum)
 
    No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
                                           Marginal   Upper bound          range         range   break point variable
 ------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
-     1 c_u_cts(1)_  NU      24.00000        .               -Inf     -108.00000       -.66667     -36.00000 x(x1)
-                                            .66667      24.00000       36.00000          +Inf      60.00000 x(x3)
+     1 c_u_capacity(1)_
+                    BS       2.00000       2.00000          -Inf         .           -3.00000      30.00000 c_u_capacity(3)_
+                                            .            4.00000        6.00000       4.50000      45.00000 c_u_capacity(2)_
 
-     2 c_u_cts(2)_  NU      36.00000        .               -Inf       24.00000      -1.00000      40.00000 x(x3)
-                                           1.00000      36.00000           +Inf          +Inf          +Inf
+     2 c_u_capacity(2)_
+                    NU      12.00000        .               -Inf        6.00000      -1.50000      27.00000 c_u_capacity(1)_
+                                           1.50000      12.00000       18.00000          +Inf      45.00000 weekly_prod(Doors)
 
-     3 c_e_ONE_VAR_CONSTANT
-                    NS       1.00000        .            1.00000         .               -Inf      52.00000 ONE_VAR_CONSTANT
-                                            .            1.00000           +Inf          +Inf      52.00000
+     3 c_u_capacity(3)_
+                    NU      18.00000        .               -Inf       12.00000      -1.00000      30.00000 weekly_prod(Doors)
+                                           1.00000      18.00000       24.00000          +Inf      42.00000 c_u_capacity(1)_
+
+     4 c_e_ONE_VAR_CONSTANT
+                    NS       1.00000        .            1.00000         .               -Inf      36.00000 ONE_VAR_CONSTANT
+                                            .            1.00000           +Inf          +Inf      36.00000
 
 GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
 
 Problem:    
-Objective:  obj = 52 (MAXimum)
+Objective:  profit = 36 (MAXimum)
 
    No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
                                           Marginal   Upper bound          range         range   break point variable
 ------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
-     1 x(x1)        BS      11.00000       5.00000        .              .            4.63636      48.00000 x(x2)
-                                            .               +Inf       11.00000          +Inf          +Inf
+     1 weekly_prod(Doors)
+                    BS       2.00000       3.00000        .                -Inf        .           30.00000 c_u_capacity(3)_
+                                            .               +Inf        4.00000       7.50000      45.00000 c_u_capacity(2)_
 
-     2 x(x2)        NL        .            4.00000        .                -Inf          -Inf          +Inf
-                                           -.33333          +Inf       12.00000       4.33333      48.00000 x(x1)
+     2 weekly_prod(Windows)
+                    BS       6.00000       5.00000        .             3.00000       2.00000      18.00000 c_u_capacity(2)_
+                                            .               +Inf        6.00000          +Inf          +Inf
 
-     3 x(x3)        BS       3.00000      -1.00000        .            -3.60000      -2.33333      48.00000 x(x4)
-                                            .               +Inf       36.00000       1.66667      60.00000 c_u_cts(1)_
-
-     4 x(x4)        NL        .            3.00000        .                -Inf          -Inf          +Inf
-                                           -.66667          +Inf        6.00000       3.66667      48.00000 x(x3)
-
-     5 ONE_VAR_CONSTANT
+     3 ONE_VAR_CONSTANT
                     BS       1.00000        .             .             1.00000          -Inf          -Inf
                                             .               +Inf        1.00000          +Inf          +Inf
 

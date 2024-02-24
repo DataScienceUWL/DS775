@@ -1,34 +1,29 @@
-\* Source Pyomo model name=Generic *\
+\* Source Pyomo model name=unknown *\
 
 max 
-obj:
-+5 x(x1)
-+4 x(x2)
--1 x(x3)
-+3 x(x4)
+profit:
++3 weekly_prod(Doors)
++5 weekly_prod(Windows)
 
 s.t.
 
-c_u_cts(1)_:
-+3 x(x1)
-+2 x(x2)
--3 x(x3)
-+1 x(x4)
-<= 24
+c_u_capacity(1)_:
++1 weekly_prod(Doors)
+<= 4
 
-c_u_cts(2)_:
-+3 x(x1)
-+3 x(x2)
-+1 x(x3)
-+3 x(x4)
-<= 36
+c_u_capacity(2)_:
++2 weekly_prod(Windows)
+<= 12
+
+c_u_capacity(3)_:
++3 weekly_prod(Doors)
++2 weekly_prod(Windows)
+<= 18
 
 c_e_ONE_VAR_CONSTANT: 
 ONE_VAR_CONSTANT = 1.0
 
 bounds
-   0 <= x(x1) <= +inf
-   0 <= x(x2) <= +inf
-   0 <= x(x3) <= +inf
-   0 <= x(x4) <= +inf
+   0 <= weekly_prod(Doors) <= +inf
+   0 <= weekly_prod(Windows) <= +inf
 end
