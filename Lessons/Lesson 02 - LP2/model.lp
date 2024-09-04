@@ -1,29 +1,27 @@
-\* Source Pyomo model name=unknown *\
+\* Source Pyomo model name=TannerCo *\
 
 max 
-profit:
-+3 weekly_prod(Doors)
-+5 weekly_prod(Windows)
+obj:
++3 x(toys)
+-2.5 x(subs)
 
 s.t.
 
-c_u_capacity(1)_:
-+1 weekly_prod(Doors)
-<= 4
+c_u_cts(1)_:
++2 x(toys)
+-1 x(subs)
+<= 3001
 
-c_u_capacity(2)_:
-+2 weekly_prod(Windows)
-<= 12
+c_u_cts(2)_:
++1 x(toys)
+-1 x(subs)
+<= 1000
 
-c_u_capacity(3)_:
-+3 weekly_prod(Doors)
-+2 weekly_prod(Windows)
-<= 18
-
-c_e_ONE_VAR_CONSTANT: 
-ONE_VAR_CONSTANT = 1.0
+c_u_cts(3)_:
++1 x(toys)
+<= 2500
 
 bounds
-   0 <= weekly_prod(Doors) <= +inf
-   0 <= weekly_prod(Windows) <= +inf
+   0 <= x(toys) <= +inf
+   0 <= x(subs) <= +inf
 end
